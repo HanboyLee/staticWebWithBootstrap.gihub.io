@@ -1,0 +1,13 @@
+@import '../styles/main';
+body {
+    &:before {
+        content: '';
+        height: 50px;
+        display: block;
+    }
+}
+@media (min-width: $layout-md) {
+    .news-input {
+        width: 50%;
+    }
+}
